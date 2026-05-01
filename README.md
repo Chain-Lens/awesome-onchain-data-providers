@@ -8,7 +8,7 @@ Maintained by [ChainLens](https://chainlens.pelicanlab.dev/).
 Data is structured as JSON under `/providers` for programmatic access;
 this README is auto-generated.
 
-**56 providers · 12 contributors · last updated 2026-06-15**
+**0 providers · 0 contributors · last updated 2026-05-01**
 
 ## Contents
 
