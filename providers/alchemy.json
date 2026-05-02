@@ -1,0 +1,17 @@
+{
+  "name": "Alchemy",
+  "slug": "alchemy",
+  "category": "rpc",
+  "subcategory": "Node and data APIs",
+  "description": "Provides blockchain node APIs, data APIs, webhooks, and related developer infrastructure across multiple networks.",
+  "website": "https://www.alchemy.com/",
+  "docs": "https://www.alchemy.com/docs",
+  "pricing_model": "freemium",
+  "supported_chains": ["EVM", "Solana", "Bitcoin"],
+  "api_types": ["json-rpc", "rest", "websocket", "grpc"],
+  "self_hostable": false,
+  "official_contact": "https://x.com/AlchemyPlatform",
+  "added_date": "2026-05-02",
+  "last_verified": "2026-05-02",
+  "source_attestation": "https://www.alchemy.com/docs/node"
+}

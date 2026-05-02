@@ -1,0 +1,17 @@
+{
+  "name": "Moralis",
+  "slug": "moralis",
+  "category": "specialized",
+  "subcategory": "Onchain data APIs and indexing",
+  "description": "Provides data APIs, streams, datashare, and indexing products for wallets, analytics, compliance, and data pipelines.",
+  "website": "https://moralis.com/",
+  "docs": "https://docs.moralis.com/",
+  "pricing_model": "freemium",
+  "supported_chains": ["EVM", "Solana"],
+  "api_types": ["rest", "websocket"],
+  "self_hostable": false,
+  "official_contact": "https://x.com/MoralisWeb3",
+  "added_date": "2026-05-02",
+  "last_verified": "2026-05-02",
+  "source_attestation": "https://docs.moralis.com/"
+}

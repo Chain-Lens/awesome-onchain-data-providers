@@ -1,0 +1,17 @@
+{
+  "name": "The Graph",
+  "slug": "the-graph",
+  "category": "subgraph",
+  "subcategory": "Subgraph network",
+  "description": "Provides decentralized indexing and query infrastructure for subgraphs and onchain application data.",
+  "website": "https://thegraph.com/",
+  "docs": "https://thegraph.com/docs/",
+  "pricing_model": "open-source",
+  "supported_chains": ["EVM", "SVM"],
+  "api_types": ["graphql"],
+  "self_hostable": true,
+  "official_contact": "https://x.com/graphprotocol",
+  "added_date": "2026-05-02",
+  "last_verified": "2026-05-02",
+  "source_attestation": "https://thegraph.com/docs/en/indexing/overview/"
+}

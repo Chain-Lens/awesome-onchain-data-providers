@@ -1,0 +1,14 @@
+{
+  "name": "awesome-onchain-data-providers",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "validate:urls": "node scripts/validate.mjs --check-urls",
+    "build:readme": "node scripts/build-readme.mjs",
+    "build:dist": "node scripts/build-dist.mjs",
+    "build": "npm run build:readme && npm run build:dist",
+    "report:stale": "node scripts/report-stale.mjs"
+  }
+}

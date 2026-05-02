@@ -1,0 +1,17 @@
+{
+  "name": "Bitquery",
+  "slug": "bitquery",
+  "category": "analytics",
+  "subcategory": "Blockchain data APIs and streams",
+  "description": "Provides historical and real-time blockchain data through GraphQL APIs, subscriptions, and streaming interfaces.",
+  "website": "https://bitquery.io/",
+  "docs": "https://docs.bitquery.io/",
+  "pricing_model": "freemium",
+  "supported_chains": ["EVM", "Solana", "Bitcoin", "Tron", "TON"],
+  "api_types": ["graphql", "websocket", "grpc"],
+  "self_hostable": false,
+  "official_contact": "https://x.com/Bitquery_io",
+  "added_date": "2026-05-02",
+  "last_verified": "2026-05-02",
+  "source_attestation": "https://docs.bitquery.io/docs/blockchain/introduction/"
+}

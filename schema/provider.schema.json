@@ -1,0 +1,117 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Onchain Data Provider",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "slug",
+    "category",
+    "description",
+    "website",
+    "added_date",
+    "last_verified",
+    "source_attestation"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 60
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["rpc", "indexer", "oracle", "analytics", "subgraph", "specialized"]
+    },
+    "subcategory": {
+      "type": "string",
+      "maxLength": 80
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 240
+    },
+    "website": {
+      "type": "string",
+      "format": "uri"
+    },
+    "docs": {
+      "type": "string",
+      "format": "uri"
+    },
+    "pricing_model": {
+      "type": "string",
+      "enum": ["free", "freemium", "paid", "open-source"]
+    },
+    "supported_chains": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "api_types": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["rest", "graphql", "websocket", "grpc", "json-rpc"]
+      },
+      "uniqueItems": true
+    },
+    "self_hostable": {
+      "type": "boolean"
+    },
+    "official_contact": {
+      "type": "string",
+      "maxLength": 120
+    },
+    "added_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "last_verified": {
+      "type": "string",
+      "format": "date"
+    },
+    "source_attestation": {
+      "type": "string",
+      "format": "uri"
+    },
+    "chainlens": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "wants_listing": {
+          "type": "boolean"
+        },
+        "contact": {
+          "type": "string",
+          "format": "uri"
+        },
+        "preferred_task_types": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[a-z0-9_:-]+$"
+          },
+          "uniqueItems": true
+        },
+        "listing_status": {
+          "type": "string",
+          "enum": ["not_listed", "requested", "draft", "pending_claim", "listed"]
+        },
+        "listing_url": {
+          "type": ["string", "null"],
+          "format": "uri"
+        }
+      }
+    }
+  }
+}

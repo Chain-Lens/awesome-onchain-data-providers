@@ -1,0 +1,17 @@
+{
+  "name": "QuickNode",
+  "slug": "quicknode",
+  "category": "rpc",
+  "subcategory": "Multi-chain RPC and streams",
+  "description": "Provides RPC, REST, gRPC, WebSocket endpoints, webhooks, and streams for blockchain applications.",
+  "website": "https://www.quicknode.com/",
+  "docs": "https://www.quicknode.com/docs/",
+  "pricing_model": "freemium",
+  "supported_chains": ["EVM", "Solana", "Bitcoin", "Hyperliquid"],
+  "api_types": ["json-rpc", "rest", "websocket", "grpc"],
+  "self_hostable": false,
+  "official_contact": "https://x.com/QuickNode",
+  "added_date": "2026-05-02",
+  "last_verified": "2026-05-02",
+  "source_attestation": "https://www.quicknode.com/docs/"
+}

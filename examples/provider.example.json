@@ -1,0 +1,24 @@
+{
+  "name": "Example Data",
+  "slug": "example-data",
+  "category": "analytics",
+  "subcategory": "Blockchain analytics API",
+  "description": "Provides example onchain data through documented API endpoints.",
+  "website": "https://example.com/",
+  "docs": "https://example.com/docs",
+  "pricing_model": "freemium",
+  "supported_chains": ["EVM", "Solana"],
+  "api_types": ["rest"],
+  "self_hostable": false,
+  "official_contact": "https://x.com/example",
+  "added_date": "2026-05-02",
+  "last_verified": "2026-05-02",
+  "source_attestation": "https://example.com/docs",
+  "chainlens": {
+    "wants_listing": true,
+    "contact": "https://x.com/example",
+    "preferred_task_types": ["price_quote", "wallet_data"],
+    "listing_status": "not_listed",
+    "listing_url": null
+  }
+}

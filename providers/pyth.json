@@ -1,0 +1,17 @@
+{
+  "name": "Pyth",
+  "slug": "pyth",
+  "category": "oracle",
+  "subcategory": "Price feeds",
+  "description": "Provides price feeds and market data products with onchain delivery across supported blockchain networks.",
+  "website": "https://pyth.network/",
+  "docs": "https://docs.pyth.network/",
+  "pricing_model": "freemium",
+  "supported_chains": ["EVM", "SVM", "Move"],
+  "api_types": ["rest", "websocket"],
+  "self_hostable": false,
+  "official_contact": "https://x.com/PythNetwork",
+  "added_date": "2026-05-02",
+  "last_verified": "2026-05-02",
+  "source_attestation": "https://docs.pyth.network/price-feeds"
+}

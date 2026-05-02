@@ -1,0 +1,17 @@
+{
+  "name": "Chainlink",
+  "slug": "chainlink",
+  "category": "oracle",
+  "subcategory": "Decentralized data feeds",
+  "description": "Provides decentralized oracle services including data feeds, data streams, automation, VRF, and cross-chain services.",
+  "website": "https://chain.link/",
+  "docs": "https://docs.chain.link/",
+  "pricing_model": "paid",
+  "supported_chains": ["EVM", "Solana"],
+  "api_types": ["rest"],
+  "self_hostable": false,
+  "official_contact": "https://x.com/chainlink",
+  "added_date": "2026-05-02",
+  "last_verified": "2026-05-02",
+  "source_attestation": "https://chain.link/data-feeds"
+}

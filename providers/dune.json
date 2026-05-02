@@ -1,0 +1,17 @@
+{
+  "name": "Dune",
+  "slug": "dune",
+  "category": "analytics",
+  "subcategory": "Blockchain analytics and data catalog",
+  "description": "Provides raw, decoded, and curated blockchain datasets accessible through a web app, API, and datashare products.",
+  "website": "https://dune.com/",
+  "docs": "https://docs.dune.com/",
+  "pricing_model": "freemium",
+  "supported_chains": ["EVM", "Solana", "Bitcoin"],
+  "api_types": ["rest"],
+  "self_hostable": false,
+  "official_contact": "https://x.com/Dune",
+  "added_date": "2026-05-02",
+  "last_verified": "2026-05-02",
+  "source_attestation": "https://docs.dune.com/data-catalog/overview/"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Goldsky",
+  "slug": "goldsky",
+  "category": "indexer",
+  "subcategory": "Managed indexing and subgraphs",
+  "description": "Provides managed subgraph indexing and real-time data pipeline products for blockchain applications.",
+  "website": "https://goldsky.com/",
+  "docs": "https://docs.goldsky.com/",
+  "pricing_model": "paid",
+  "supported_chains": ["EVM", "SVM", "Arweave"],
+  "api_types": ["graphql", "websocket"],
+  "self_hostable": false,
+  "official_contact": "https://x.com/goldskyio",
+  "added_date": "2026-05-02",
+  "last_verified": "2026-05-02",
+  "source_attestation": "https://docs.goldsky.com/subgraphs/introduction"
+}

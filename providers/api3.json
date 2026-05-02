@@ -1,0 +1,17 @@
+{
+  "name": "API3",
+  "slug": "api3",
+  "category": "oracle",
+  "subcategory": "First-party oracle data feeds",
+  "description": "Provides dAPI data feeds and oracle infrastructure for applications using first-party oracle data.",
+  "website": "https://api3.org/",
+  "docs": "https://docs.api3.org/",
+  "pricing_model": "paid",
+  "supported_chains": ["EVM"],
+  "api_types": ["rest"],
+  "self_hostable": false,
+  "official_contact": "https://x.com/API3DAO",
+  "added_date": "2026-05-02",
+  "last_verified": "2026-05-02",
+  "source_attestation": "https://docs.api3.org/dapps/"
+}

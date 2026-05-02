@@ -1,0 +1,7 @@
+.codex
+landing.md
+
+node_modules/
+.DS_Store
+.env
+.env.*
